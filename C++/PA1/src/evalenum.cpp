@@ -106,6 +106,8 @@ void recursiveSelectionSort(int arr[], int l, int r, sortperf_t * s)
 
 // selection sort
 void selectionSort(int arr[], int l, int r, sortperf_t * s) { 
+
+    //inserir o codigo aqui
   return;
 }
 
