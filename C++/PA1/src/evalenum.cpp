@@ -113,6 +113,7 @@ void selectionSort(int arr[], int l, int r, sortperf_t * s) {
 
 //insertion sort
 void insertionSort(int v[], int l, int r, sortperf_t * s) {
+    //inserir o codigo aqui
   return;
 }
 
@@ -128,26 +129,32 @@ int median (int a, int b, int c) {
 
 // quicksort partition using median of 3
 void partition3(int * A, int l, int r, int *i, int *j, sortperf_t *s) {
+    //inserir o codigo aqui
 }
 
 // standard quicksort partition
 void partition(int * A, int l, int r, int *i, int *j, sortperf_t *s) {
+    //inserir o codigo aqui
 }
 
 // standard quicksort
 void quickSort(int * A, int l, int r, sortperf_t *s) { 
+    //inserir o codigo aqui
 }
 
 // quicksort with median of 3
 void quickSort3(int * A, int l, int r, sortperf_t *s) { 
+    //inserir o codigo aqui
 }
 
 // quicksort with insertion for small partitions
 void quickSortIns(int * A, int l, int r, sortperf_t *s) { 
+    //inserir o codigo aqui
 }
 
 // quicksort with insertion for small partitions and median of 3
 void quickSort3Ins(int * A, int l, int r, sortperf_t *s) { 
+    //inserir o codigo aqui
 }
 
 void uso() {
