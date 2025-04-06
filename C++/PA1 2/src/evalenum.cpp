@@ -127,7 +127,7 @@ void recursiveSelectionSort(int arr[], int l, int r, sortperf_t * s)
 // selection sort
 void selectionSort(int arr[], int l, int r, sortperf_t * s) {
     int i, j, min_idx;
-    inccalls(s,1);
+    
     // Loop externo sobre todas as posições do array de l até r-1
     for (i = l; i < r; i++) {
         // Assume que o elemento atual é o mínimo
@@ -155,7 +155,7 @@ void selectionSort(int arr[], int l, int r, sortperf_t * s) {
 //insertion sort
 void insertionSort(int v[], int l, int r, sortperf_t * s) {
     int i, j, key;
-    inccalls(s,1);
+    
     for (i = l + 1; i <= r; i++) {
         key = v[i];
         j = i - 1;

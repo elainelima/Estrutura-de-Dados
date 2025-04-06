@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'bin/pa1.out'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: __Z8name2numPc, symObjAddr: 0x0, symBinAddr: 0x1000026F0, symSize: 0xAC }
+  - { offset: 0x4A, size: 0x8, addend: 0x0, symName: _algvet, symObjAddr: 0x1550, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x98, size: 0x8, addend: 0x0, symName: __Z8name2numPc, symObjAddr: 0x0, symBinAddr: 0x1000026F0, symSize: 0xAC }
+  - { offset: 0xD2, size: 0x8, addend: 0x0, symName: __Z8num2namei, symObjAddr: 0xAC, symBinAddr: 0x10000279C, symSize: 0x9C }
+  - { offset: 0x10C, size: 0x8, addend: 0x0, symName: __Z12resetcounterP8sortperf, symObjAddr: 0x148, symBinAddr: 0x100002838, symSize: 0x28 }
+  - { offset: 0x134, size: 0x8, addend: 0x0, symName: __Z6inccmpP8sortperfi, symObjAddr: 0x170, symBinAddr: 0x100002860, symSize: 0x28 }
+  - { offset: 0x16A, size: 0x8, addend: 0x0, symName: __Z7incmoveP8sortperfi, symObjAddr: 0x198, symBinAddr: 0x100002888, symSize: 0x28 }
+  - { offset: 0x1A0, size: 0x8, addend: 0x0, symName: __Z8inccallsP8sortperfi, symObjAddr: 0x1C0, symBinAddr: 0x1000028B0, symSize: 0x28 }
+  - { offset: 0x1D6, size: 0x8, addend: 0x0, symName: __Z13printsortperfP8sortperfPcS1_, symObjAddr: 0x1E8, symBinAddr: 0x1000028D8, symSize: 0x74 }
+  - { offset: 0x21E, size: 0x8, addend: 0x0, symName: __Z10initVectorPii, symObjAddr: 0x25C, symBinAddr: 0x10000294C, symSize: 0x7C }
+  - { offset: 0x270, size: 0x8, addend: 0x0, symName: __Z11printVectorPii, symObjAddr: 0x2D8, symBinAddr: 0x1000029C8, symSize: 0x84 }
+  - { offset: 0x2C2, size: 0x8, addend: 0x0, symName: __Z4swapPiS_P8sortperf, symObjAddr: 0x35C, symBinAddr: 0x100002A4C, symSize: 0x58 }
+  - { offset: 0x314, size: 0x8, addend: 0x0, symName: __Z9shellSortPiiP8sortperf, symObjAddr: 0x3B4, symBinAddr: 0x100002AA4, symSize: 0x1D8 }
+  - { offset: 0x3BA, size: 0x8, addend: 0x0, symName: __Z22recursiveSelectionSortPiiiP8sortperf, symObjAddr: 0x58C, symBinAddr: 0x100002C7C, symSize: 0x12C }
+  - { offset: 0x436, size: 0x8, addend: 0x0, symName: __Z13selectionSortPiiiP8sortperf, symObjAddr: 0x6B8, symBinAddr: 0x100002DA8, symSize: 0x120 }
+  - { offset: 0x4B2, size: 0x8, addend: 0x0, symName: __Z13insertionSortPiiiP8sortperf, symObjAddr: 0x7D8, symBinAddr: 0x100002EC8, symSize: 0x160 }
+  - { offset: 0x52E, size: 0x8, addend: 0x0, symName: __Z6medianiii, symObjAddr: 0x938, symBinAddr: 0x100003028, symSize: 0x154 }
+  - { offset: 0x576, size: 0x8, addend: 0x0, symName: __Z10partition3PiiiS_S_P8sortperf, symObjAddr: 0xA8C, symBinAddr: 0x10000317C, symSize: 0x1F0 }
+  - { offset: 0x638, size: 0x8, addend: 0x0, symName: __Z9partitionPiiiS_S_P8sortperf, symObjAddr: 0xC7C, symBinAddr: 0x10000336C, symSize: 0x19C }
+  - { offset: 0x6C2, size: 0x8, addend: 0x0, symName: __Z9quickSortPiiiP8sortperf, symObjAddr: 0xE18, symBinAddr: 0x100003508, symSize: 0x88 }
+  - { offset: 0x745, size: 0x8, addend: 0x0, symName: __Z10quickSort3PiiiP8sortperf, symObjAddr: 0xEA0, symBinAddr: 0x100003590, symSize: 0x88 }
+  - { offset: 0x7C8, size: 0x8, addend: 0x0, symName: __Z12quickSortInsPiiiP8sortperf, symObjAddr: 0xF28, symBinAddr: 0x100003618, symSize: 0xB8 }
+  - { offset: 0x84C, size: 0x8, addend: 0x0, symName: __Z13quickSort3InsPiiiP8sortperf, symObjAddr: 0xFE0, symBinAddr: 0x1000036D0, symSize: 0xB8 }
+  - { offset: 0x8D0, size: 0x8, addend: 0x0, symName: __Z3usov, symObjAddr: 0x1098, symBinAddr: 0x100003788, symSize: 0x110 }
+  - { offset: 0x8EA, size: 0x8, addend: 0x0, symName: __Z10parse_argsiPPcP3opt, symObjAddr: 0x11A8, symBinAddr: 0x100003898, symSize: 0x134 }
+  - { offset: 0x941, size: 0x8, addend: 0x0, symName: __Z7clkDiff8timespecS_PS_, symObjAddr: 0x1344, symBinAddr: 0x100003A34, symSize: 0xA0 }
+  - { offset: 0x2AF2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AD4, symSize: 0x260 }
+  - { offset: 0x2B25, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AD4, symSize: 0x260 }
+...
