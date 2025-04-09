@@ -18,7 +18,8 @@ EXECUTABLE	:= pa1.out
 all: clean $(BIN)/$(EXECUTABLE)
 
 run: all
-	
+	./$(BIN)/$(EXECUTABLE) -z 81 -s 17 -a q3i
+
 
 
 $(BIN)/$(EXECUTABLE): $(SRC)/*.cpp
